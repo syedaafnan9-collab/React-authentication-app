@@ -1,0 +1,24 @@
+@import "tailwindcss";
+body {
+  background-image: url('/bgImage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.auth-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  min-height: 100vh;
+}
+
+@media (max-width:768px){
+
+  .auth-container{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+}
